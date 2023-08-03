@@ -1,0 +1,35 @@
+.regular__clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box__svg{
+    display: flex;
+    width: 170px;
+    height: 81px;
+    border-radius: 4px;
+    border: solid $color-svg 1px;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover{
+        border:solid $color-azul 1px;
+    }
+}
+
+
+.svg__redes{
+    width: 106px;
+    height: 60px;
+    top:2461.0869750976562px;
+    left: 247px;
+    padding: 7px 4px 0px 7px;
+    fill: $color-svg;
+}
+
+.box__svg:hover .svg__redes{
+    fill: $color-azul;
+}

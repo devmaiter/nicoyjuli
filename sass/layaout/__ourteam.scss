@@ -1,0 +1,79 @@
+.section-team{
+    flex-shrink: 0;
+    background: $color-team;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-team;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-team;
+}
+
+.cuadricula{
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: $color-white;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.nombres{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+.text__profession{
+    color: $color-lightgrey;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+
+.plataformas{
+    padding: 10px; ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 0;
+    gap: 25px;
+}
+
+.list__svg__redes{
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    fill: $color-svg;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $color-azul;
+    }
+}
+
+
+
+.list__svg__redes:hover .icon-redes{
+    fill:$color-lightgrey
+}
+
+.icon__redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    fill: $color-svg;
+}

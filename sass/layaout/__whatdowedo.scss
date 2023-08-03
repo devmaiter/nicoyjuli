@@ -1,0 +1,29 @@
+.container__dedicamos{
+    padding-top: 80px;
+    width: 1200px;
+    margin: auto;
+}
+
+.h2__subtitle{
+    color: $color-black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.quienes{
+    display: flex;
+    justify-content: space-evenly;
+    color: $color-white;
+}
+
+.letrero-aplicaciones{
+    position: relative;
+    display: flex;
+    background: rgba(47, 48, 58, 0.80);
+    margin-top: -73px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}

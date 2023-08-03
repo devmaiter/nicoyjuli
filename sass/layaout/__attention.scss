@@ -1,0 +1,35 @@
+.h2__texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__icons{
+    background: rgba(245, 244, 250,1);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.icons{
+    margin-top: 25px;
+    margin-left:100px ;
+}
+
+.h2__title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.ph2__list {
+    color: $color-lightgrey;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    flex-shrink: 0;
+}

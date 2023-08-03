@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="./css/main.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet" 
@@ -18,29 +18,28 @@
 
 <body>
     <header>
-    <section class="nav-container">
-        <div class="container barra-list">
-        <nav class="nav-container ">
-            <ul class="barra-list">
-                <a class="web-logo" href="#">WebStudio</a>
+    <section class="nav__container">
+        <div class="container barra__list">
+            <a class="web__logo" href="#">WebStudio</a>
+        <nav class="nav__container ">
+            <ul class="barra__list">
+                
             <li><a class="link1" href="index.html">Estudio</a></li>
-            <li><a class="link1" href="portafolio.html">Portafolio</a></li>
+            <li><a class="link1 border__page" href="portafolio.html">Portafolio</a></li>
             <li><a class="link1" href="#">Contactos</a></li>
             </ul>
         </nav>
-            <ul class="barra-list">
-                
+            <ul class="barra__list">
                     <li><a class="link2" href="info@devstudio.com">
-                        <svg class="mail-svg">
+                        <svg class="mail__svg">
                             <use href="/icon.svg#email"></use>
                         </svg>info@devstudio.com</a></li>
 
                     <li><a class="link2" href="+525555296000">
-                        <svg class="cell-svg">
+                        <svg class="cell__svg">
                             <use href="/icon.svg#Cellphone"></use>
                         </svg>
                         +52 55 552 96000</a></li>
-            
             </ul>
         </div>
     </section>
@@ -49,8 +48,8 @@
 
     <main>
         <section class="container">
-        <div class="buttons-container">
-        <ul class="div-buttons">
+        <div class="container">
+        <ul class="div__buttons">
                 <li>
                     <button type="button" class="link">Todo</button>
                 </li>  
@@ -73,141 +72,161 @@
         
         <section>
         <div class="container">
-        <ul class="container-parrilla">
+        <ul class="container__parrilla">
 
             <li class="shadowflex">
-                <div class="box">
-                    <di class="overlay">
-                        <p>Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.</p>
-                    </di>
-                        <img src="./Imagenes/imagen1.jpg" alt="Computador" 
-                        width="370" 
-                        height="294">
-                </div>
-                <div> 
-                    <h3 class="h3-titulos">Tecnoduck</h3>
-                    <p class="p-subp">Sitio-web</p>
+                <div class="target">
+                    <div class="box">
+                        <div class="overlay">
+                            <p>Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.</p>
+                        </div>
+                            <img src="./Imagenes/imagen1.jpg" alt="Computador" 
+                            width="370" 
+                            height="294">
+                    </div>
+                    <div> 
+                        <h3 class="h3__titulos">Tecnoduck</h3>
+                        <p class="p__subp">Sitio-web</p>
+                    </div>
                 </div>
             </li>
 
             <li class="shadowflex">
+                <div class="target">
                 <div class="box">
                     <div class="overlay">
-                            <p>Dos</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor facilis fuga labore voluptatibus similique odit suscipit quae eum ad alias quas ipsa, expedita corrupti laudantium libero maxime dolorem eligendi voluptatem.</p>
                     </div>
                     <img src="./Imagenes/imagen2.jpg" alt="Jugando basquetball" 
                     width="370" 
                     height="294">
                 </div>
             <div>
-                <h3 class="h3-titulos">Póster de Nueva Orleans vs Estrella Dorada</h3>
-                <p class="p-subp">Diseño</p>
+                <h3 class="h3__titulos">Póster de Nueva Orleans vs Estrella Dorada</h3>
+                <p class="p__subp">Diseño</p>
+            </div>
             </div>
             </li>
         
             <li class="shadowflex">
+                <div class="target">
                     <div class="box">
                         <div class="overlay">
-                                <p>Tres</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis cupiditate sequi ab minima doloribus expedita facere quae sapiente ad exercitationem, possimus rerum recusandae mollitia, debitis a facilis quis hic incidunt.</p>
                         </div>
                         <img src="./Imagenes/imagen3.jpg" alt="Logo restaurante de mar" 
                         width="370" 
                         height="294">
                     </div>
-                <div>
-                    <h3 class="h3-titulos">Restaurante Seafood</h3>
-                    <p class="p-subp">Aplicaciones</p>
+
+                    <div>
+                    <h3 class="h3__titulos">Restaurante Seafood</h3>
+                    <p class="p__subp">Aplicaciones</p>
+                    </div>
                 </div>
             </li>
             
             <li class="shadowflex">
+                <div class="target">
                     <div class="box">
                         <div class="overlay">
-                                <p>Cuatro</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque ullam optio, repellat in et, alias aliquid quasi ipsam, debitis quidem modi? Rerum labore saepe iusto magnam commodi aliquid dolores!</p>
                         </div>
                         <img src="./Imagenes/imagen4.jpg" alt="imagen audifonos" 
                         width="370" 
                         height="294">
                     </div>
-                <div>
-                    <h3 class="h3-titulos">Proyecto Prime</h3>
-                    <p class="p-subp">Marketing</p>
+
+                    <div>
+                        <h3 class="h3__titulos">Proyecto Prime</h3>
+                        <p class="p__subp">Marketing</p>
+                    </div>
                 </div>
             </li>
 
             <li class="shadowflex">
-                <div class="box">
+                <div class="target">
+                    <div class="box">
                         <div class="overlay">
-                                <p>Cinco</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore consequatur quo exercitationem eius iure, mollitia sapiente beatae dolore. Nihil explicabo at laboriosam quidem harum porro nobis cumque laudantium aut!</p>
                         </div>
                     <img src="./Imagenes/imagen5.jpg" alt="imagen de cajas" 
                     width="370" 
                     height="294">
+                    </div>
+              <div>
+                    <h3 class="h3__titulos">Proyecto Cajas</h3>
+                    <p class="p__subp">Aplicaciones</p>
                 </div>
-                <div>
-                    <h3 class="h3-titulos">Proyecto Cajas</h3>
-                    <p class="p-subp">Aplicaciones</p>
-                </div>
+              </div>
             </li>
 
             <li class="shadowflex">
-                <div class="box">
-                    <div class="overlay">
-                            <p>Seis</p>
-                    </div>
+                <div class="target">
+                    <div class="box">
+                      <div class="overlay">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates, cupiditate, error dolorem accusantium doloremque quisquam maiores nemo doloribus dolor sint! Nesciunt iste, ea id ab dolores aut amet velit.</p>
+                      </div>
                         <img src="./Imagenes/imagen6.jpg" alt="imagen de pantalla de pc" 
                         width="370" 
                         height="294">
-                </div>
+                  </div>
                     <div>
-                        <h3 class="h3-titulos">La inspiración no tiene límites</h3>
-                        <p class="p-subp">Sitio-web</p>
+                        <h3 class="h3__titulos">La inspiración no tiene límites</h3>
+                        <p class="p__subp">Sitio-web</p>
                     </div>
+                </div>
             </li>
             
             <li class="shadowflex">
-                <div class="box">
+                <div class="target">
+                  <div class="box">
                     <div class="overlay">
-                            <p>Siete</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam doloremque tempore deleniti illum eaque unde sequi iste ratione eveniet? Deserunt delectus saepe voluptate dolor corrupti, officiis dicta nam nulla.</p>
                     </div>
                         <img class="img" src="./Imagenes/imagen7.jpg" alt="imagen de revista" 
                         width="370" 
                         height="294">
                 </div>
                     <div>
-                        <h3 class="h3-titulos">Edición Limitada</h3>
-                        <p class="p-subp">Diseño</p>
+                        <h3 class="h3__titulos">Edición Limitada</h3>
+                        <p class="p__subp">Diseño</p>
                     </div>
+                </div>
             </li>
             
             <li class="shadowflex">
-                <div class="box">
+                <div class="target">
+                  <div class="box">
                     <div class="overlay">
-                            <p>Ocho</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis est sapiente labore nam distinctio impedit atque iste doloremque. Fugiat ipsa vitae iure quas alias! Quam rem quis eligendi ut.</p>
                     </div>
                         <img src="./Imagenes/imagen8.jpg" alt="imagen de una etiqueta" 
                         width="370" 
                         height="294">
                 </div>
                     <div>
-                        <h3 class="h3-titulos">Proyecto LAB</h3>
-                        <p class="p-subp">Marketing</p>
-                    </di>
+                        <h3 class="h3__titulos">Proyecto LAB</h3>
+                        <p class="p__subp">Marketing</p>
+                    </div>
+                </div>
             </li>
 
             <li class="shadowflex">
+              <div class="target">
                 <div class="box">
                     <div class="overlay">
-                            <p>Nueve</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam eum non odit quaerat harum velit asperiores perspiciatis ipsum fugiat voluptatem delectus, reiciendis obcaecati repellat, fugit, placeat quo? Tenetur, laudantium libero!</p>
                     </div>
                         <img src="./Imagenes/imagen9.jpg" alt="imagen manos en un pc" 
                         width="370" 
                         height="294">
                 </div>
                     <div>
-                        <h3 class="h3-titulos">Negocio en Crecimiento</h3>
-                        <p class="p-subp">Aplicaciones</p>
+                        <h3 class="h3__titulos">Negocio en Crecimiento</h3>
+                        <p class="p__subp">Aplicaciones</p>
                     </div>
+                  </div>
             </li>
 
         </ul>
@@ -216,33 +235,53 @@
     </main>
 
 
-
-        <footer class="footer-font">
-        <div class="container">
+    <footer class="footer__font">
+        <div class="container__footer">
+            <a class="web__footer" href="#">WebStudio</a>
         <address>
-            <ul class="footer-list">
-            <a class="web-footer" href="#">WebStudio</a>
+            <ul class="city__footer">
             <li><a class="ubicacion" href="#">
-                Calz.Ticoman 500,ciudad de</br>
+                Calz.Ticoman 500,ciudad de<br>
                 Mexico,CDMX,Mexico</a></li>
             <li><a class="link2" href="#">info@example.com</a></li>
             <li><a class="link2" href="#">+52 55 5529 6000</a></li>
             </ul>
         </address>
 
-        <section class="container-redes">
-            <p class="tittle-footer">ENCUENTRENOS EN</p>
-            <ul class="plataformas-footer">
-                <li class="list-svg-redes-f">
-                    <svg class="icon-redes-f"><use href="/icon.svg#instagram"></use></svg></li>
-                <li class="list-svg-redes-f">
-                    <svg class="icon-redes-f"><use href="/icon.svg#twitter"></use></svg></li>
-                <li class="list-svg-redes-f">
-                    <svg class="icon-redes-f"><use href="/icon.svg#facebook"></use></svg></li>
-                <li class="list-svg-redes-f">
-                    <svg class="icon-redes-f"><use href="/icon.svg#linked"></use></svg></li>
+
+        <section class="container__redes">
+            <p class="tittle__footer">ENCUENTRENOS EN</p>
+            <ul class="plataformas__footer">
+                <li class="list__svg__redes__f">
+                    <svg class="icon__redes__f"><use href="/icon.svg#instagram"></use></svg></li>
+                <li class="list__svg__redes__f">
+                    <svg class="icon__redes__f"><use href="/icon.svg#twitter"></use></svg></li>
+                <li class="list__svg__redes__f">
+                    <svg class="icon__redes__f"><use href="/icon.svg#facebook"></use></svg></li>
+                <li class="list__svg__redes__f">
+                    <svg class="icon__redes__f"><use href="/icon.svg#linked"></use></svg></li>
             </ul>
+        </section>
+
+
+        <section class="container__sus">
+            <form action="">
+                <p class="p__sus">SUSCRÍBASE al boletín informativo</p>
+                <label class="modal__label__footer">
+                    <div class="modal__div">
+                    <input class="modal__input__footer" type="" name="email" placeholder="Correo electrónico" required>
+                    </div>
+                    </label>
+                    <div class="div__sus__foo">   
+                        <button class="button__sus__foo" type="submit">Suscríbase</button>
+                        <svg class="icon__svg__sus">
+                            <use href="./icon.svg#airplane"></use>
+                        </svg>
+                    </div>
+                </form>
+            </section>
+
         </div>
-        </footer>
+    </footer>
     </body>
 </html>

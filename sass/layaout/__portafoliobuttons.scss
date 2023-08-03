@@ -1,0 +1,30 @@
+.link{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 24px;
+    margin-right: 8px;
+    cursor: pointer
+}
+
+.div__buttons .link {
+    background-color: #f5f4fa;
+    color: $color-black;
+
+}
+
+.div__buttons .link:hover, 
+.div__buttons .link:focus {
+    background-color: $color-azul;
+    color: $color-white;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+.div__buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
