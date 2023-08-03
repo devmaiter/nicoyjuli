@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="./css/main.min.css" rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet"
@@ -17,34 +17,29 @@
 
 
 <body>
-    <header>
-    <section class="nav__container">
-        <div class="container barra__list">
-            <a class="web__logo" href="#">WebStudio</a>
         <nav class="nav__container">
+            <div class="div-container">
+            <a class="web__logo" href="#">WebStudio</a>
             <ul class="barra__list">
             <li><a class="link1 border__page" href="index.html">Estudio</a></li>
             <li><a class="link1" href="portafolio.html">Portafolio</a></li>
-            <li><a class="link1" href="#">Contactos</a></li>
+            <li><a class="link1" href="#">Contactos</a></li>                
+            <li><a class="link2" href="info@devstudio.com">
             </ul>
-        </nav>
-            <ul class="barra__list">
+            <ul class="ul-contact">  
+                <svg class="mail__svg">
+                    <use href="/icon.svg#email"></use>
+                </svg>info@devstudio.com</a></li>
                 
-                    <li><a class="link2" href="info@devstudio.com">
-                        <svg class="mail__svg">
-                            <use href="/icon.svg#email"></use>
-                        </svg>info@devstudio.com</a></li>
-
-                    <li><a class="link2" href="+525555296000">
-                        <svg class="cell__svg">
-                            <use href="/icon.svg#Cellphone"></use>
-                        </svg>
-                        +52 55 552 96000</a></li>
-            
+                <li><a class="link2" href="+525555296000">
+                    <svg class="cell__svg">
+                        <use href="/icon.svg#Cellphone"></use>
+                    </svg>
+                    +52 55 552 96000</a></li>
+                        
             </ul>
-        </div>
-    </section>
-    </header>
+            </div>
+            </nav>
 
 
 
@@ -60,56 +55,49 @@
                     </button>
                 </div>
         </section>
-
-
-    <section class="section">
+        <section class="section">
+            <div class="container">
+                <div class="card">
+                    <svg class="icons"><use href="/icon.svg#antena"></use></svg>
+                    <div class="h2__tittle">
+                        <h2>ATENCIÓN A LOS DETALLES</h2>
+                    </div>
+                    <p class="ph2__list">
+                        Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.
+                    </p>
+                </div>
         
-        <div class="container">
-        <ul class="h2__texto">
-        <li class="container__icons">
-            <svg class="icons"><use href="/icon.svg#antena"></use></svg>
-        <div class="h2__tittle">
-            <h2>ATENCIÓN A LOS DETALLES</h2>
-        </div>
-            <p class="ph2__list">
-            Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.
-            </p>
-        </li>
-
-        <li class="container__icons">
-            <svg class="icons"><use href="/icon.svg#clock"></use></svg>
-        <div class="h2__tittle">
-            <h2>PUNTUALIDAD</h2>
-        </div>
-            <p class="ph2__list">
-            Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.
-            </p>
-        </li>
-
-        <li class="container__icons">
-            <svg class="icons"><use href="/icon.svg#diagrama"></use></svg>
-        <div class="h2__tittle">
-            <h2>PLANIFICACIÓN</h2>
-        </div>
-            <p class="ph2__list">
-            Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
-            </p>
-        </li>
-
-        <li class="container__icons">
-            <svg class="icons"><use href="/icon.svg#astronauta"></use></svg>
-        <div class="h2__tittle">
-            <h2>TEGNOLOGÍA MODERNA</h2>
-        </div>
-            <p class="ph2__list">
-        Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.
-            </p>
-        </li>
+                <div class="card">
+                    <svg class="icons"><use href="/icon.svg#clock"></use></svg>
+                    <div class="h2__tittle">
+                        <h2>PUNTUALIDAD</h2>
+                    </div>
+                    <p class="ph2__list">
+                        Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.
+                    </p>
+                </div>
         
-        </ul>
-        </div>
-    </section>
-
+                <div class="card">
+                    <svg class="icons"><use href="/icon.svg#diagrama"></use></svg>
+                    <div class="h2__tittle">
+                        <h2>PLANIFICACIÓN</h2>
+                    </div>
+                    <p class="ph2__list">
+                        Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
+                    </p>
+                </div>
+        
+                <div class="card">
+                    <svg class="icons"><use href="/icon.svg#astronauta"></use></svg>
+                    <div class="h2__tittle">
+                        <h2>TEGNOLOGÍA MODERNA</h2>
+                    </div>
+                    <p class="ph2__list">
+                        Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.
+                    </p>   
+        
+</section>
+    
 
 
     <section class="section">
@@ -247,6 +235,102 @@
         </div>
         </section>
 
+        <section class="section-team">
+        <div class="container">
+            <h2 class="section h2__subtitle">NUESTRO EQUIPO</h2>
+            <ul class="team">
+            <li class="cuadricula card">
+                <img src="./Imagenes/img1.jpg" alt="Andrés" width="270" height="260">
+                <div>
+                <h3 class="nombres">Andrés Cubo</h3>
+                <p class="text__profession">Diseñador de Productos</p>
+                </div>
+                <ul class="plataformas">
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#instagram"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#facebook"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#linked"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#twitter"></use></svg>
+                </li>
+                </ul>
+            </li>
+    
+            <li class="cuadricula card">
+                <img src="./Imagenes/img2.jpg" alt="Carla" width="270" height="260">
+                <div>
+                <h3 class="nombres">Carla Palacios</h3>
+                <p class="text__profession">Desarrolladora Frontend</p>
+                </div>
+                <ul class="plataformas">
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#instagram"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#twitter"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#facebook"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#linked"></use></svg>
+                </li>
+                </ul>
+            </li>
+    
+            <li class="cuadricula card">
+                <img src="./Imagenes/img3.jpg" alt="Mario" width="270" height="260">
+                <div>
+                <h3 class="nombres">Mario Dorado</h3>
+                <p class="text__profession">Marketing</p>
+                </div>
+                <ul class="plataformas">
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#instagram"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#twitter"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#facebook"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#linked"></use></svg>
+                </li>
+                </ul>
+            </li>
+    
+            <li class="cuadricula card">
+                <img src="./Imagenes/img4.jpg" alt="Pablo" width="270" height="260">
+                <div>
+                <h3 class="nombres">Pablo Mijangos</h3>
+                <p class="text__profession">Diseñador IU</p>
+                </div>
+                <ul class="plataformas">
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#instagram"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#twitter"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#facebook"></use></svg>
+                </li>
+                <li class="list__svg__redes">
+                    <svg class="icon__redes"><use href="/icon.svg#linked"></use></svg>
+                </li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </section>
+
+        
         <section class="section">
             <div class="container">
                     <h2 class="h2__subtitle">Clientes Regulares</h2>
@@ -261,7 +345,62 @@
                 </ul>
             </div>
         </section>
-
+        <section class="backdrop" data-modal>
+            <div class="modal">
+    
+                <button class="modal__btn__close" data-modal-close> 
+                <svg class="modal__svg__close">
+                    <use href="/icon.svg#close-x"></use>
+                </svg>
+            </button>
+    
+                <h3 class="modal__title__form">Deje sus datos, nos contactaremos con usted</h3>
+    
+                <form>
+                    <label class="modal__label">Nombre
+                    <div class="modal__div">
+                    <input class="modal__input" type="text" name="nombre" placeholder="Nombre" required>
+                    <svg class="modal__icon__svg">
+                        <use href="./icon.svg#person"></use>
+                    </svg>
+                    </div>
+                    </label>
+    
+                    <label class="modal__label">Telefono
+                    <div class="modal__div">
+                    <input class="modal__input" type="tel" name="Telefono" placeholder="Celular" required>
+                    <svg class="modal__icon__svg">
+                        <use href="./icon.svg#telephone"></use>
+                    </svg>
+                    </div>
+                    </label>
+    
+                    <label class="modal__label">Email
+                    <div class="modal__div">
+                    <input class="modal__input" type="email" name="email" placeholder="Email" required>
+                    <svg class="modal__icon__svg">
+                        <use href="./icon.svg#correo"></use>
+                    </svg>
+                    </div>
+                    </label>
+    
+                    <label class="modal__label">Comentarios
+                    <textarea class="modal__input__description" id="text-description" placeholder="Introduzca el texto"></textarea>
+                    </label>
+    
+                    <div class="check__box">
+                        <input type="checkbox" id="" name="acuerdo" value="acuerdo">
+                        <label for="acuerdo">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+                    </div>
+    
+    
+                    <div class="modal__div__button">   
+                    <button class="modal__button" type="submit">Enviar</button>
+                    </div>
+                </form>
+        
+            </div>
+        </section>
     </main>
 
 
@@ -316,65 +455,6 @@
             </div>
         </footer>
 
-
-
-        <section class="backdrop is-hidden" data-modal>
-            <div class="modal">
-
-                <button class="modal__btn__close" data-modal-close> 
-                <svg class="modal__svg__close">
-                    <use href="/icon.svg#close-x"></use>
-                </svg>
-            </button>
-
-                <h3 class="modal__title__form">Deje sus datos, nos contactaremos con usted</h3>
-
-                <form>
-                    <label class="modal__label">Nombre
-                    <div class="modal__div">
-                    <input class="modal__input" type="text" name="nombre" placeholder="Nombre" required>
-                    <svg class="modal__icon__svg">
-                        <use href="./icon.svg#person"></use>
-                    </svg>
-                    </div>
-                    </label>
-
-                    <label class="modal__label">Telefono
-                    <div class="modal__div">
-                    <input class="modal__input" type="tel" name="Telefono" placeholder="Celular" required>
-                    <svg class="modal__icon__svg">
-                        <use href="./icon.svg#telephone"></use>
-                    </svg>
-                    </div>
-                    </label>
-
-                    <label class="modal__label">Email
-                    <div class="modal__div">
-                    <input class="modal__input" type="email" name="email" placeholder="Email" required>
-                    <svg class="modal__icon__svg">
-                        <use href="./icon.svg#correo"></use>
-                    </svg>
-                    </div>
-                    </label>
-
-                    <label class="modal__label">Comentarios
-                    <textarea class="modal__input__description" id="text-description" placeholder="Introduzca el texto"></textarea>
-                    </label>
-
-                    <div class="check__box">
-                        <input type="checkbox" id="" name="acuerdo" value="acuerdo">
-                        <label for="acuerdo">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
-                    </div>
-
-
-                    <div class="modal__div__button">   
-                    <button class="modal__button" type="submit">Enviar</button>
-                    </div>
-                </form>
-        
-            </div>
-        </section>
-
         <script src="modal.js"></script>
-    </body>
+</body>
 </html>
